@@ -1,0 +1,167 @@
+
+body
+{
+    background-image: url('bag4.png');
+    background-size: cover;
+    object-fit: cover;
+}
+.Hwhites
+{
+    color: white;
+}
+.HBlacks
+{
+    color: #11324D;
+
+}
+.MainDiv
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+.ProfileImg
+{
+
+    border-radius: 100px;
+    height: 200;
+    width: 200;
+    object-fit: cover;
+
+}
+
+.card
+{
+display: flex; 
+flex-direction: column; 
+align-items: center;
+
+border-radius: 30px;
+height: 300px;
+width: 200px;
+box-shadow: 5px 5px 5px 5px #11324D;
+opacity: 0.7;
+margin-left: 20px;
+margin-bottom: 20px;
+background-color: #11324D;
+
+
+}
+
+
+.card2
+{
+display: flex; 
+flex-direction: column; 
+align-items: center;
+
+border-radius: 150px;
+height: 250px;
+width: 340px;
+box-shadow: 5px 5px 5px 5px #11324D;
+opacity: 0.7;
+margin-left: 20px;
+margin-bottom: 20px;
+background-color: #FFB830;
+
+
+}
+
+
+
+.aboutmeDiv
+{
+ border-radius: 20px;
+ width: 400px;
+ height: 150px;
+ box-shadow: 5px 5px 5px 5px #11324D;
+background-color: #11324D;
+opacity: 0.7;
+
+}
+.CarContainer
+{
+    display: flex; 
+    height: 400px;
+    width: 700px;
+}
+
+.MyWorksCardContainer
+{
+    display: flex; 
+    height: 400px;
+    width: 900px;
+}
+
+.MYworksHeading
+{
+    margin-top: 60px;
+}
+
+@media only screen and (max-width:600px)
+{
+
+    .CarContainer
+    {
+        display: flex; 
+        flex-direction: column;
+        align-items: center;
+        height: 400px;
+        width: 700px;
+    }
+
+    .MyWorksCardContainer
+   {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 700px;
+   }
+
+
+    .card
+    {
+
+    border-radius: 30px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 5px 5px 5px 5px #11324D;
+    margin-left: -5;
+    margin-bottom: 20px;
+   }
+
+
+   .card2
+    {
+  
+        border-radius: 30px;
+        height: 300px;
+        width: 300px;
+        box-shadow: 5px 5px 5px 5px #11324D;
+        margin-left: -5;
+        margin-bottom: 20px;
+
+
+    }
+
+    .aboutmeDiv
+    {
+    border-radius: 20px;
+    width: 350px;
+    height: 200px;
+    box-shadow: 5px 5px 5px 5px #11324D;
+    
+
+    }
+
+    .MYworksHeading
+    {
+        margin-top: 300px;
+    }
+
+
+    
+}
